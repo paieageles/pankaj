@@ -16,7 +16,7 @@ body{
     margin: 0 auto;
 }
 #header{
-    background-color: orange;
+    background-color: rgb(75, 67, 51);
     height: 100px;
     color: white;
 }
