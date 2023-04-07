@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100px;
+}
+body{
+    background-color: skyblue
+}
+#menu{
+    width: 100%;
+    background-color: chocolate;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+}
+#menu a{
+    text-decoration: none;
+    color: blue;
+    text-shadow: 5px 5px 1px yellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#out{
+    width: 600px;
+    height: 300px;
+    border: 3px solid;
+    margin: 50px;
+    background-color: orange;
+    animation-name: flag;
+    animation-duration: 2s;
+    /* animation-timing-function: steps(3); */
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    /* animation-play-state: paused; */
+    
+}
+#cen{
+    width: 600px;
+    height: 100px;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    margin-top: 100px;
+    background-color: white;
+
+}
+
+#cir{
+    width: 100px;
+    height: 95px;
+    border: 4px solid;
+    margin-left: 250px;
+    border-radius: 50%;
+    position: relative;
+}
+
+#down{
+    margin-top: -2px;
+    width: 600px;
+    height: 96px;
+    background-color: green;    
+}
+.a{
+    position: absolute;
+    top: 46px;
+    left: 3px;
+    z-index: 1;
+    width: 93px;
+    height: 1px;
+    background-color: black;
+    
+}
+.a1{
+    transform: rotate(15deg);
+}
+.a2{
+    transform: rotate(30deg);
+}
+.a3{
+    transform: rotate(45deg);
+}
+.a4{
+    transform: rotate(60deg);
+}
+.a5{
+    transform: rotate(75deg);
+}
+.a6{
+    transform: rotate(90deg);
+}
+.a7{
+    transform: rotate(105deg);
+}
+.a8{
+    transform: rotate(120deg);
+}
+.a9{
+    transform: rotate(135deg);
+}
+.a10{
+    transform: rotate(150deg);
+}
+.a11{
+    transform: rotate(165deg);
+}
+.a12{
+    transform: rotate(180deg);
+}
+
+@keyframes flag{
+    0%{ transform: translate(100px, 100px);}
+    100%{
+        transform: translate(1900px, 500px);
+        /* transform: rotateY(60deg); */
+        /* transform: skew(20deg, 30deg); */
+        
+    }
+}
+
+.dropc{
+    position: absolute;
+    display: none;
+    background-color: orange;
+}
+.drop{
+    position: relative;
+}
+.dropc a{
+    display: block;
+}
+.drop:hover .dropc{
+display: block;
+}
