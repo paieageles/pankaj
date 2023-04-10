@@ -33,7 +33,8 @@ body{
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
-    /* animation-play-state: paused; */
+    animation-play-state:running;
+    border-radius: 16px;
     
 }
 #cen{
@@ -131,4 +132,7 @@ body{
 }
 .drop:hover .dropc{
 display: block;
+}
+#out:hover{
+    animation-play-state: paused;
 }
