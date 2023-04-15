@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background-color: RED;
+}
+#menu ul{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+}
+#menu ul li{
+    list-style: none;
+    background-color: black;
+    
+}
+#menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+#footer{
+    position: fixed;
+    bottom: 0;
+    background-color: blue;
+    color: white;
+    width: 100%;
+    text-align: right;
+}
+#content{
+    position: absolute;
+    background-color: aqua;
+    height: 90%;
+    width: 100%;
+}
