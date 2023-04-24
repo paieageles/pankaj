@@ -3,9 +3,7 @@
     padding: 0;
 }
 
-@media screen and (max-width:1000px){
-    #footer{background-color: black;}
-}
+
 
 h1{
     background-color: RED;
@@ -49,4 +47,7 @@ h1{
     height: 90vh;
     width: 90%;
     float: right;
+}
+@media  screen and (max-width:600px) {
+    h1{background-color: blue;}
 }
