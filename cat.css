@@ -5,11 +5,12 @@ h1{
 }
 ul ul ul{
     background-color: orange;
+
 }
 ul ul{
     background-color: burlywood;
     align-items: center;
-    width: fit-content;
+    
     margin: auto;
 
 }
