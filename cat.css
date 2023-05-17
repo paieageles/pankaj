@@ -1,0 +1,26 @@
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+ul ul ul{
+    background-color: orange;
+}
+ul ul{
+    background-color: burlywood;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+
+}
+ul{
+    background-color: blueviolet;
+    margin: auto;
+    width: fit-content;
+    box-shadow: 5px 5px 10px 3px  black;
+    border-radius: 15px;
+
+}
+body{
+    background-color: tan;
+}

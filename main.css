@@ -6,8 +6,9 @@
 
 
 h1{
-    background-color: blue;
+    background-color: green;
     width: 100vw;
+    color: white;
 }
 #menu ul{
     display: flex;
@@ -17,25 +18,26 @@ h1{
     width: 10%;
     float: left;
     height: 90vh;
+    
+
 }
 #menu ul li{
-    list-style: none;
+    /* list-style: none; */
     background-color: gray;
     border-radius: 10px;
     border: 3px solid blue;
     text-align: center;
     
+    
 }
 #menu ul li a{
     color: white;
     text-decoration: none;
-    padding: 3px;
-    background-color: orange;
     
     font-size: 15px;
-    border-radius: 6px;
-    border: 3px solid red;
+    
 }
+
 #footer{
     position: fixed;
     bottom: 0;
@@ -46,13 +48,13 @@ h1{
     font-size: 30px;
 }
 #content{
-    /* position: absolute; */
+    
     background-color: aqua;
     height: 90vh;
     width: 90%;
     float: right;
 }
-@media  screen and (max-width:500px) {
+@media  screen and (max-width:600px) {
     h1{background-color: green;
     width: 100vw;}    
 }
